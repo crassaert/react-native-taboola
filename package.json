@@ -1,0 +1,25 @@
+{
+  "name": "@taboola/react-native-taboola",
+  "version": "1.2.1",
+  "description": "React-Native plugin for Taboola SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native": ">=0.59.0-rc.0 <0.61.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taboola/mobile-react-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taboola/mobile-react-plugin/issues"
+  },
+  "homepage": "https://github.com/taboola/mobile-react-plugin#readme"
+}
