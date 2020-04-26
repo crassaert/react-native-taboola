@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "TaboolaSDK", '2.3.6'
+  s.dependency "TaboolaSDK", '2.4.1'
   # React can NOT be a dependency in this podspec, otherwise when adding it to the sample app it will bring an old react native version that will break the app.
   # Instead we rely on the app using this pod to be created with react-native init and already includes React that comes from npm (and not from cocoapods).
   #s.dependency "React"
@@ -24,4 +24,3 @@ Pod::Spec.new do |s|
 
 end
 
-  
